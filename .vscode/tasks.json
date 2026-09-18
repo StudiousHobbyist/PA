@@ -12,13 +12,13 @@
                 "-Wextra",
 
                 "${workspaceFolder}\\src\\main.cpp",
-
+                "${workspaceFolder}\\src\\TileMap.cpp",
                 "-I${workspaceFolder}\\src",
                 "-I${workspaceFolder}\\includes",
                 "-IC:\\msys64\\ucrt64\\include",
 
                 "-LC:\\msys64\\ucrt64\\lib",
-
+                "-ltinyxml2",
                 "-lsfml-graphics",
                 "-lsfml-window",
                 "-lsfml-system",
